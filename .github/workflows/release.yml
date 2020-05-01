@@ -1,0 +1,12 @@
+---
+'on':
+push:
+  tags:
+      - 'v*'
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello World
+      uses: ajilraju/helloworld-actions@v1.3
