@@ -4,6 +4,8 @@ This file is used to list changes made in each version of the vscode cookbook.
 
 ## Unreleased
 
+Standardise files with files in sous-chefs/repo-management
+
 ## 1.0.9 - *2021-08-13*
 
 - Fix missing Changelog Entries
