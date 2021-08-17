@@ -1,0 +1,71 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  product_name: chef
+  enforce_idempotency: true
+  multiple_converge: 2
+  deprecations_as_errors: true
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: centos-7
+  - name: centos-8
+  - name: debian-9
+  - name: debian-10
+  - name: fedora-latest
+  - name: opensuse-leap-15
+  - name: ubuntu-16.04
+  - name: ubuntu-18.04
+  - name: ubuntu-20.04
+  - name: windows-10
+    transport:
+      name: winrm
+      elevated: true
+    driver_config:
+      box: tas50/windows_10
+      gui: false
+      customize:
+        memory: 4096
+  - name: windows-2012r2
+    transport:
+      name: winrm
+      elevated: true
+    driver_config:
+      box: tas50/windows_2012r2
+      gui: false
+      customize:
+        memory: 4096
+  - name: windows-2016
+    transport:
+      name: winrm
+      elevated: true
+    driver_config:
+      box: tas50/windows_2016
+      gui: false
+      customize:
+        memory: 4096
+  - name: windows-2019
+    transport:
+      name: winrm
+      elevated: true
+    driver_config:
+      box: tas50/windows_2019
+      gui: false
+      customize:
+        memory: 4096
+  - name: macos-10.15
+    driver:
+      box: tas50/macos_10.15
+      gui: true
+      customize:
+        memory: 4096
+
+suites:
+  - name: default
+    run_list:
+      - recipe[firefox_test::default]
