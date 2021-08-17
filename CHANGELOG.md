@@ -1,56 +1,12 @@
-# vscode CHANGELOG
+# bot-trainer Cookbook CHANGELOG
 
-This file is used to list changes made in each version of the vscode cookbook.
+This file is used to list changes made in each version of the firefox cookbook.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
 
-## 1.0.9 - *2021-08-13*
+## 0.0.0 (2020-10-17)
 
-- Fix missing Changelog Entries
-
-## 1.0.7 - *2021-08-13*
-
-- Updated to Standard Files definition
-- Resolved failing tests
-
-## 1.0.6 - *2021-06-18*
-
-- Standard Files Update
-
-## 1.0.5 - *2021-06-01*
-
-- Standard Files update
-
-## 1.0.4 - *2020-12-02*
-
-- resolved cookstyle error: resources/installer.rb:39:7 warning: `Chef/Deprecations/DeprecatedYumRepositoryActions`
-- Install libxcb which is required to properly install extensions
-- Remove Debian 8 testing
-- Add Debian 10, EL8 and Ubuntu 20.04 testing
-
-## 1.0.3 - *2020-11-18*
-
-- fixed yamllint warning for "on" in the ci workflow
-
-## 1.0.2
-
-- Migrated to actions for testing
-
-## 1.0.1
-
-- Added `.gitattributes` to ensure `lf` line endings
-- Updated circleci builds to be parallel
-- Updated cookbook with latest `cookstyle` fixes
-- Changed `Dangerfile` to use `failure` instead of `fail`
-- Removed `.rubocop.yml` as no longer required
-
-## 1.0.0
-
-- Added extension management
-  - Can install extensions
-  - Can upgrade extensions
-  - Can uninstall extensions
-- Added installation management
-  - Can install vscode and related repository
-  - Can uninstall vscode and related repository
-- Added initial support for Linux
+Stuff
