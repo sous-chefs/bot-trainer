@@ -1,0 +1,21 @@
+---
+driver:
+  name: dokken
+  privileged: true  # because Docker and SystemD
+  chef_version: <%= ENV['CHEF_VERSION'] || 'current' %>
+  env: [CHEF_LICENSE=accept]
+
+transport:
+  name: dokken
+
+provisioner:
+  name: dokken
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: centos-8
+    driver:
+      image: dokken/centos-8
+      pid_one_command: /usr/lib/systemd/systemd
