@@ -1,5 +1,5 @@
 name              'bot-trainer'
-maintainer        'Oops'
+maintainer        'Sous Cherfffss'
 maintainer_email  'fire@sous-chefs.org'
 license           'Apache-2.0'
 description       'Do not use, Sous-Chefs cookbook for testing only!'
