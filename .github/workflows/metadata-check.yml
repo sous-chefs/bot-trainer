@@ -7,10 +7,10 @@ name: 'Check Metadata'
     branches: [main]
 
 permissions:
-  actions: read
   checks: write
-  pull-requests: read
   statuses: write
+  actions: read
+  pull-requests: read
   issues: read
 
 jobs:
@@ -24,5 +24,5 @@ jobs:
         uses: damacus/check-chef-metadata-action@0.0.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          maintainer: 'Bob'
-          maintainer_email: 'oops@tyrefire.org'
+          # maintainer: 'Bob'
+          # maintainer_email: 'oops@tyrefire.org'
