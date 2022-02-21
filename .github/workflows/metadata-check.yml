@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Check Metadata
-        uses: damacus/check-chef-metadata-action@0.0.2
+        uses: damacus/check-chef-metadata-action@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # maintainer: 'Bob'
