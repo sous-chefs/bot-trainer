@@ -10,7 +10,7 @@ permissions:
   actions: read
   checks: read
   pull-requests: read
-  statuses: read
+  statuses: write
   issues: read
 
 jobs:
