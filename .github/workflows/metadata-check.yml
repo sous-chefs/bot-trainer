@@ -15,3 +15,5 @@ jobs:
 
       - name: Check Metadata
         uses: damacus/check-chef-metadata-action@main
+        with:
+          maintainer: 'Bob'
