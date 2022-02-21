@@ -8,7 +8,7 @@ name: 'Check Metadata'
 
 permissions:
   actions: read
-  checks: read
+  checks: write
   pull-requests: read
   statuses: write
   issues: read
