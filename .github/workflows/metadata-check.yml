@@ -23,5 +23,4 @@ jobs:
       - name: Check Metadata
         uses: damacus/check-chef-metadata-action@testing
         with:
-          maintainer: 'Bob'
           token: ${{ secrets.GITHUB_TOKEN }}
