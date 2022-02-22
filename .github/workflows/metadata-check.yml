@@ -24,5 +24,3 @@ jobs:
         uses: damacus/check-chef-metadata-action@testing
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # maintainer: 'Bob'
-          # maintainer_email: 'oops@tyrefire.org'
