@@ -9,9 +9,9 @@ name: 'Check Metadata'
 permissions:
   checks: write
   statuses: write
-  actions: read
-  pull-requests: read
-  issues: read
+  actions: write
+  pull-requests: write
+  issues: write
 
 jobs:
   check-metadata:
