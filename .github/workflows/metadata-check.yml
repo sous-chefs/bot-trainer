@@ -11,7 +11,7 @@ permissions:
   statuses: write
   actions: write
   pull-requests: write
-  issues: read
+  issues: write
 
 jobs:
   check-metadata:
