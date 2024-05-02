@@ -2,6 +2,8 @@
 
 This file is used to list changes made in each version of the bot-trainer cookbook.
 
+## Unreleased
+
 ## 0.1.8 - *2024-05-02*
 
 ## 0.1.7 - *2024-05-02*
