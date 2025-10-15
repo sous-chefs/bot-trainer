@@ -2,20 +2,6 @@
 
 This file is used to list changes made in each version of the bot-trainer cookbook.
 
-## Unreleased
-
-## 0.1.9 - *2025-09-04*
-
-## 0.1.8 - *2024-05-02*
-
-## 0.1.7 - *2024-05-02*
-
-## 0.1.6 - *2023-11-01*
-
-## 0.1.5 - *2023-09-11*
-
-## 0.1.4 - *2023-02-14*
-
 ## 0.1.3 - *2023-02-14*
 
 - Remove delivery folder
