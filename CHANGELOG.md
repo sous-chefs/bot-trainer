@@ -2,7 +2,7 @@
 
 This file is used to list changes made in each version of the bot-trainer cookbook.
 
-## [0.1.10](https://github.com/sous-chefs/bot-trainer/compare/bot-trainer-v0.1.9...bot-trainer-v0.1.10) (2026-10-19)
+## [0.1.10](https://github.com/sous-chefs/bot-trainer/compare/bot-trainer-v0.1.9...v0.1.10) (2026-10-19)
 
 ### Bug Fixes
 
